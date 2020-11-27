@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="app">
+          {{ content }}
+          <body>
+            <style>
+                .accordion {
+                  background-color: #eee;
+                  color: #444;
+                  cursor: pointer;
+                  padding: 18px;
+                  width: 100%;
+                  border: 0.5px solid grey;
+                  text-align: left;
+                  outline: none;
+                  font-size: 15px;
+                  transition: 0.4s;
+                }
+                .accordion ::after{
+                    content: '+';
+                }
+                
+                .active, .accordion:hover {
+                  background-color: #ccc; 
+                }
+                
+                .panel {
+                  padding: 0 18px;
+                  display: none;
+                  background-color: white;
+                  overflow: hidden;
+                }
+                </style>
+
+            <h2>Version 1.0</h2>
+            <button class="accordion">New Feature</button>
+            <div class="panel">
+              <p>You can learn different types of musical instrument
+                  with the experts here </p>
+            </div>
+            <button class="accordion">Bug Fix</button>
+            <div class="panel">
+              <p>In this you may see some bugs</p>
+            </div>  
+            <button class="accordion">Update</button>
+            <div class="panel">
+              <p>This is the first version launched </p>
+            </div>
+            <br></br>
+            <h2>Version 1.1</h2>
+            <button class="accordion">New Feature</button>
+            <div class="panel">
+              <p>You can learn different types of musical instrument
+                  with the experts here </p>
+            </div>          
+            <button class="accordion">Bug Fix</button>
+            <div class="panel">
+              <p>Problems fixed which you were facing in previous version </p>
+            </div> 
+            <button class="accordion">Update</button>
+            <div class="panel">
+              <p>some new features has been added </p>
+            </div>
+        
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+            
+            </body>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+ 
+</html>

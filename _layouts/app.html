@@ -14,7 +14,8 @@
               cursor: pointer;
               padding: 18px;
               width: 100%;
-              border: none;
+              border: 1px solid grey;
+              border-radius: ;
               text-align: left;
               outline: none;
               font-size: 15px;
@@ -39,42 +40,56 @@
             
             .panel {
               padding: 0 18px;
-              background-color: white;
+              background-color: rgb(224, 237, 248);
               max-height: 0;
+              border-top: none;
+              border: 1px solid grey;
+              border-radius: ;
               overflow: hidden;
-              transition: max-height 0.2s ease-out;
-            }
+              transition: max-height 0.2s ease-out;           
+            } 
             </style>
+            <style>
+                .download-btn {
+                    background-color: rgb(64, 173, 245);
+                    border-radius: 15px;
+                    color: #eeeeee;
+                    text-align: center;
+                    text-decoration-color: lightcyan;
+                    font-size: 25px;
+                    padding: 5px;
+                    width: 200px;
+                    cursor: pointer;
+                    margin: 1px;
+              }
+              </style>
 
-            <h2><a href="http:">Version 1.0</a></h2>
-            <button class="accordion">New Feature</button>
+            <h2>Version 1.0</h2>
+            <button class="accordion">Version 1.0</button>
             <div class="panel">
-              <p>You can learn different types of musical instrument
-                  with the experts here </p>
-            </div>
-            <button class="accordion">Bug Fix</button>
-            <div class="panel">
-              <p>In this you may see some bugs</p>
-            </div>  
-            <button class="accordion">Update</button>
-            <div class="panel">
-              <p>This is the first version launched </p>
+              <h2> Version 1.0 </h2>
+              <p>This is the version for testing </p>
+              <h2>Bug Fixes</h2>
+              <p> some of the problems fixes</p>
+              <h2>New Features</h2>
+              <p>these are the new fetures . now you learn guitar</p>
+              <button class="download-btn" type="button"><a href="https://">Download</a></button>
+              <br></br>
             </div>
             <br></br>
-            <h2><a href="https://">Version 1.1</a></h2>
-            <button class="accordion">New Feature</button>
+            <h2>Version 1.1</h2>
+            <button class="accordion">Version1.1</button>
             <div class="panel">
-              <p>You can learn different types of musical instrument
-                  with the experts here </p>
+              <h2> Version 1.0 </h2>
+              <p>This is the version for testing </p>
+              <h2>Bug Fixes</h2>
+              <p> some of the problems fixes</p>
+              <h2>New Features</h2>
+              <p>these are the new fetures . now you learn guitar</p>
+              <button class="download-btn" type="button"><a href="https://">Download</a></button>
+              <br></br>
             </div>          
-            <button class="accordion">Bug Fix</button>
-            <div class="panel">
-              <p>Problems fixed which you were facing in previous version </p>
-            </div> 
-            <button class="accordion">Update</button>
-            <div class="panel">
-              <p>some new features has been added </p>
-            </div>
+        
         
             <script>
               var acc = document.getElementsByClassName("accordion");

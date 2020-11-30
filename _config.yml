@@ -12,22 +12,20 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
-    - name: Blog
     - name: App
 
 footer:
-  contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-  follow:
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
+#  contact:
+#   - name: Email
+#      value: yourmail@domain.com
+ #     link: mailto:yourmail@domain.com
+  #follow:
+   # - name: Facebook
+    #  link: http://facebook.com/YourFacebookUsername
+    #- name: LinkedIn
+    #  link: http://linkedin.com/in/YourLinkedInUsername
+    #- name: GitHub
+     # link: http://github.com/YourGitHubUsername
 
 # Build settings
 markdown: kramdown

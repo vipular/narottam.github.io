@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/accordian.css">
 
     <!-- <script src="js/vendor/modernizr-custom.js"></script> -->
 </head>
@@ -995,7 +996,7 @@
 
                                 <div class="team-block-title">
                                     <h4><a href="#" title="ARTHUR">Dr. Vipul Arora</a></h4>
-                                    <h6 class="main-color">Assistant Professor</h6>
+                                    <h6 class="main-color">Assistant Professor<br>Department of Electrical Engineering, IIT Kanpur</br></h6>
                                 </div>
 
                                 <div class="social-icons-block social-icons-block-sm social-icons-block-style-2">
@@ -1098,14 +1099,49 @@
                         <div class="col-lg-10 col-lg-offset-1 col-md-12 title-block">
 
                             <div class="title-block-container text-center">
-
                                 <h2>DOWNLOAD FROM</h2>
-
                                 <div class="line-separator"></div>
+                            </div>                     
+                            <body>
+                                <button class="accordion">Version 1.0.0</button>
+                                <div class="panel">
+                                    <h4>Version 1.0.0</h4>
+                                    <p>About this version</p>
+                                    <h4>Bugs Fixed</h4>
+                                    <p>The problem has been fixes</p>
+                                    <h4>New Features</h4>
+                                    <p>This new features is added in this version</p>
+                                    <a href="#" class="button">Download</a>
+                                <br></br>
+                                </div>
+                                <button class="accordion">Version 1.0.1</button>
+                                <div class="panel">
+                                    <h4>Version 1.0.1</h4>
+                                    <p>About this version</p>
+                                    <h4>Bugs Fixed</h4>
+                                    <p>The problem has been fixes</p>
+                                    <h4>New Features</h4>
+                                    <p>This new features is added in this version</p>
+                                    <a href="#" class="button">Download</a>
+                                <br></br>
+                                </div>
+                                <script>
+                                    var acc = document.getElementsByClassName("accordion");
+                                    var i;
 
-                                <a href="#" title="Download"
-                                 class="btn btn-gfort wave-effect">DOWNLOAD</a>
-                            </div>
+                                    for (i = 0; i < acc.length; i++) {
+                                        acc[i].addEventListener("click", function () {
+                                            this.classList.toggle("active");
+                                            var panel = this.nextElementSibling;
+                                            if (panel.style.maxHeight) {
+                                                panel.style.maxHeight = null;
+                                            } else {
+                                                panel.style.maxHeight = panel.scrollHeight + "px";
+                                            }
+                                        });
+                                    }
+                                </script>
+                            </body>
                         </div>
                     </div>
                 </div>

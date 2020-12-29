@@ -576,9 +576,9 @@ body.full-width-page #main-wrapper {
     margin: 0;
 }
 .navbar-brand > img {
-    max-width: 80px;
-    max-height: 80px;
-    border-radius: 50%;
+    max-width: 200px;
+    max-height: 800px;
+    border-radius: none;
     margin-top: -4px;
     display: inline-block;
     vertical-align: middle;
@@ -593,7 +593,7 @@ body.full-width-page #main-wrapper {
     border-radius: 0;
 }
 .navbar-collapse.collapse {
-    padding: 0;
+    padding: 0;2
 }
 ul.navbar-nav {
     margin: 0;

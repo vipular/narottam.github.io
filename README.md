@@ -2,11 +2,16 @@
 ## This project is supported by IMPRINT-2C grant from SERB, Government of India 
 ## Project no. IMP/2019/000443
 
+--- screenshots pics ---
 Learn music remotely via a smart Android app. We are currently offering only Violin courses.
 
-# Teachers
-Devanand Pathak ji - Violin
-(...)
+# Courses
+## Violin
+Dr. Devanand Pathak
+## Harmonium (free)
+Dr. Vipul Arora
+
+To join our courses - email madhavlab.iitk@gmail.com and abhirai@iitk.ac.in 
 
 # Testimonials
 ...

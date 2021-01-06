@@ -1,0 +1,21 @@
+<!-- teachers Grid -->
+<section class="page-section" id="{{ site.data.sitetext.teachers.section | default: "teachers" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.teachers.title | markdownify | default: "teachers" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.teachers.text | markdownify }}</h3>
+      </div>
+    </div>
+	  <div class="row">
+      {% for person in site.data.sitetext.teachers.teacher %}
+        <div class="col-sm-4">
+          <div class="team-member">
+            <h4>{{ person.name }}</h4>
+            <h6>{{ person.role }}</h6>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+  </div>
+</section>

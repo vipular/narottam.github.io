@@ -1,0 +1,41 @@
+.image-block-container img {
+    top: 0;
+    left: auto;
+    right: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.mobile-slider {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    max-width: 760px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.screenshots-block-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+body {
+        margin: 0;
+        padding: 0;
+        color: #515151;
+        overflow-x: hidden;
+        font-weight: 400;
+        background-color: #ebebeb;
+}

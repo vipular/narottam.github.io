@@ -3,7 +3,10 @@
 ## Project no. IMP/2019/000443
 
 --- screenshots pics ---
-Learn music remotely via a smart Android app. We are currently offering only Violin courses.
+
+
+- Learn music remotely via a smart Android app. 
+- Research on scientific and scalable way of teaching music
 
 # Courses
 ## Violin
